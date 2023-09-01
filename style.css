@@ -8,9 +8,14 @@ body {
   min-height: 100vh;
 }
 
+.oll-container {
+  min-height: 100vh;
+  background: linear-gradient(#2889d8, #0f1213);
+}
+
 .section-1 {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .nav-bar {
@@ -26,7 +31,6 @@ body {
 .svg-nav {
   width: 30px;
   height: 30px;
-  /* padding-top: 15px; */
 }
 
 .nav-text {
@@ -61,7 +65,330 @@ nav {
 
 .img-1 {
   width: 100%;
+  height: calc(100vh - 5rem);
+}
+
+.section-2 {
+  background-image: url(png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.png);
+  height: 1000px;
+  width: 100%;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
   height: 100%;
 }
 
-/* 0xFF192831 */
+.h1-sc2 {
+  padding-right: 20px;
+  padding-top: 30px;
+  width: 729px;
+  height: 94px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffff;
+}
+
+.span-sc2 {
+  padding-left: 65px;
+  padding-top: 45px;
+  width: 826px;
+  height: 48px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+}
+
+.text-section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svg-box-sc2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 60px;
+  position: relative;
+}
+
+.svg-sc2 {
+  height: 484px;
+}
+
+.svg1-sc2 {
+  width: 400px;
+  height: 400px;
+}
+
+.kvara {
+  bottom: 320px;
+  right: 310px;
+}
+
+.osimen {
+  left: 767px;
+  bottom: 310px;
+}
+
+.lovotka {
+  left: 1150px;
+  bottom: 310px;
+}
+
+.oll {
+  position: absolute;
+  transform: translate(-50%);
+  width: 586px;
+  height: 118px;
+}
+
+.players1 {
+  width: 350px;
+  height: 420px;
+}
+
+.players-name {
+  width: 100%;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  flex-direction: row;
+  color: #ffff;
+}
+
+.statistica-kvara h3 {
+  font-weight: 700;
+  font-size: 24px;
+  width: 100px;
+  height: 28px;
+  padding-bottom: 10px;
+}
+
+.xvicha-name h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.statistica-kvara {
+  display: flex;
+  flex-direction: column;
+}
+
+.Apparences-xvicha {
+  display: flex;
+  flex-direction: row;
+  gap: 210px;
+}
+
+.Apparences-lovotka {
+  display: flex;
+  flex-direction: row;
+  gap: 190px;
+}
+
+.Apparences-osimen {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+.svg-number {
+  position: relative;
+  width: 34px;
+  height: 34px;
+}
+
+.pading {
+  width: 40px;
+  height: 40px;
+}
+
+.gol,
+.Assists {
+  margin-top: 8px;
+}
+
+.number1 {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  font-size: 18px;
+}
+
+.number2 {
+  position: absolute;
+  bottom: 4px;
+  left: 14px;
+  font-size: 20px;
+}
+
+.number3 {
+  position: absolute;
+  bottom: 5px;
+  left: 14px;
+  font-size: 20px;
+}
+
+.section-3 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
+}
+
+.h1-sc3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #ffff;
+  width: 100%;
+  padding-top: 70px;
+  font-size: 80px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1d2e37;
+  background-color: #1d2e37;
+  width: 456px;
+  height: 527px;
+  opacity: 0.9;
+}
+
+/* .box3{
+    display: flex;
+} */
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+}
+
+.napoli-halloween {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-sc3 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 13px;
+}
+
+.dolor {
+  padding-top: 10px;
+  font-weight: 700;
+  color: #ffff;
+  font-size: 30px;
+}
+
+.buton-sc3 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.buto-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Shop {
+  border: none;
+  border: #e1f21c 2px solid;
+  width: 147px;
+  height: 28px;
+  background-color: #1d2e37;
+  color: #e1f21c;
+}
+
+.add {
+  border: none;
+  border: 2px #ffff solid;
+  width: 147px;
+  height: 28px;
+  color: #ffff;
+  background-color: #1d2e37;
+}
+
+.section-4 {
+  height: 1150px;
+  width: 100%;
+  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
+}
+
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  flex-direction: row;
+}
+
+.text-3 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.buton-sc4 {
+  border: none;
+  width: 224px;
+  height: 43px;
+  border: 2px solid #e1f21c;
+  background-color: #e1f21c;
+  border-radius: 10px;
+}
+
+.xudi-div,
+.trousers-div {
+  width: 70px;
+  height: 380px;
+  padding-top: 50px;
+}
+
+.cloth-merch {
+  padding-right: 250px;
+}
+
+.trousers-div {
+  padding-left: 140px;
+}
+
+.iqon-sc4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 600px;
+  width: 100%;
+  height: 700px;
+}
+
+.section-5 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
+}
