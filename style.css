@@ -522,3 +522,263 @@ input {
   align-items: center;
   margin-top: 290px;
 }
+
+.section7 {
+  width: 100%;
+  height: 1865px;
+  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.svg);
+}
+
+.box-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 60%;
+  gap: 30px;
+}
+
+.Matchday {
+  font-size: 20px;
+}
+
+.wed-jan {
+  font-size: 30px;
+}
+
+.cet {
+  margin-left: 10px;
+}
+
+.logo-box7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  color: #ffff;
+}
+
+.box-colum-7 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.time-20-45 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-napoli-inter {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  /* padding-left: 50px; */
+}
+
+.inter,
+.napoli {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.text-sc7 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Hours {
+  display: flex;
+  flex-direction: row;
+  color: #fff500;
+  font-size: 15px;
+  font-weight: 600;
+  gap: 75px;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 500px;
+  border-radius: 20px;
+  border: 2px solid #04163a;
+  background-color: #04163a;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 {
+  height: 543px;
+}
+
+.shadow-box-1 {
+  height: 493px;
+}
+
+.shadow-box {
+  width: 402px;
+  border: 2px #fff500b2 solid;
+  border-radius: 18px;
+  box-shadow: 5px 5px 15px #fff500b2, -5px -5px 15px #fff500b2;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-info {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.title-card {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffff;
+  border-bottom: #fff500b2 2px solid;
+  padding-bottom: 10px;
+  width: 344px;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qvesten-text {
+  color: #ffff;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.buto-list {
+  width: 336px;
+  height: 39px;
+  background-color: #084aa7;
+  color: #e1f21c;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+}
+
+.card-2 {
+  height: 719px;
+}
+
+.shadow-box-2 {
+  height: 669px;
+}
+
+.buto-list-2 {
+  display: flex;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.card-3 {
+  height: 879px;
+}
+
+.shadow-box-3 {
+  height: 839px;
+}
+
+.buto-list-3 {
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+}
+
+.text-list-3 {
+  font-size: 18px;
+}
+
+.container-main7 {
+  display: flex;
+  align-items: flex-start;
+  height: 879px;
+  gap: 40px;
+}
+
+/* .section-8{
+  width: 100%;
+  height: 100%;
+  background-image: url();
+} */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1400px;
+  gap: 40px;
+}
+
+.footer-text {
+  color: #ffff;
+  display: flex;
+  gap: 40px;
+}
+
+.span-1 {
+  width: 173px;
+  height: 24px;
+}
+
+.span-2 {
+  width: 173px;
+  height: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-svg {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-text-2 {
+  align-items: flex-start;
+  display: flex;
+}
+
+hr {
+  width: 1400px;
+}
+
+.footer-pre {
+  color: #ffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
