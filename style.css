@@ -65,7 +65,7 @@ nav {
 }
 
 .section-2 {
-  background-image: url(png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.png);
+  background-image: url(./img/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.png);
   height: 1000px;
   width: 100%;
 }
@@ -246,7 +246,7 @@ nav {
 .section-3 {
   height: 1000px;
   width: 100%;
-  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 1.svg);
+  background-image: url(./svg/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 1.svg);
 }
 
 .h1-sc3 {
@@ -270,10 +270,6 @@ nav {
   height: 527px;
   opacity: 0.9;
 }
-
-/* .box3{
-    display: flex;
-} */
 
 .box-main {
   display: flex;
@@ -337,9 +333,9 @@ nav {
 }
 
 .section-4 {
-  height: 1175px;
+  height: 1464px;
   width: 100%;
-  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
+  background-image: url(./img/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
 }
 
 .box4 {
@@ -385,11 +381,12 @@ nav {
 .iqon-sc4 {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
+  margin-bottom: 100px;
   gap: 600px;
   width: 100%;
-  height: 700px;
+  height: 400px;
 }
 
 .section-5 {
@@ -398,7 +395,7 @@ nav {
   align-items: center;
   width: 100%;
   height: 972px;
-  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
+  background-image: url(./img/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
 }
 
 .svg-video {
@@ -412,7 +409,7 @@ nav {
 }
 
 .section-6 {
-  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 1.svg);
+  background-image: url(./svg/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 1.svg);
   width: 100%;
   height: 1700px;
 }
@@ -422,8 +419,9 @@ nav {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 1148px;
+  height: 80%;
   flex-direction: row;
+  padding-bottom: 200px;
 }
 
 .text-sc6 {
@@ -525,8 +523,8 @@ input {
 
 .section7 {
   width: 100%;
-  height: 1865px;
-  background-image: url(/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.svg);
+  min-height: 100vh;
+  background-image: url(./svg/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.svg);
 }
 
 .box-7 {
@@ -535,7 +533,9 @@ input {
   align-items: center;
   flex-direction: row;
   width: 100%;
-  height: 60%;
+  height: 100vh;
+  margin-bottom: 80px;
+  margin-top: 80px;
   gap: 30px;
 }
 
@@ -559,11 +559,11 @@ input {
   width: 100%;
   gap: 20px;
   color: #ffff;
+  padding-top: 80px;
 }
 
 .box-colum-7 {
   width: 100%;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -580,7 +580,6 @@ input {
   display: flex;
   flex-direction: row;
   gap: 70px;
-  /* padding-left: 50px; */
 }
 
 .inter,
@@ -704,6 +703,13 @@ input {
   height: 879px;
 }
 
+.card-start {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  height: 879px;
+}
+
 .shadow-box-3 {
   height: 839px;
 }
@@ -718,23 +724,10 @@ input {
   font-size: 18px;
 }
 
-.container-main7 {
-  display: flex;
-  align-items: flex-start;
-  height: 879px;
-  gap: 40px;
-}
-
-/* .section-8{
-  width: 100%;
-  height: 100%;
-  background-image: url();
-} */
-
 .footer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
 
@@ -781,4 +774,10 @@ hr {
 .footer-pre {
   color: #ffff;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.5s ease;
+  transform: scale(1.1);
 }
